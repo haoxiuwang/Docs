@@ -1,6 +1,6 @@
 Dir.glob('**/*.md') do |item|
-	
-	if item == "README.MD" then next
+
+	if item == "README.md" then next
 	end
 
 	htmlItem = item.clone()
