@@ -1,3 +1,14 @@
 Dir.glob('**/*.md') do |item|
-  puts item
+	
+	if item == "README.MD" then next
+	end
+
+	htmlItem = item.clone()
+	htmlItem.slice! ".md"
+	htmlItem = htmlItem + ".html"
+	puts 'MD file:'
+	puts `echo #{item}`
+	puts 'HTML file:'
+	puts `echo #{htmlItem}`
+	puts `md2html #{item} > #{htmlItem}`
 end
