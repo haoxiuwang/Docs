@@ -220,7 +220,7 @@ ul, ol {margin-bottom: 0px !important;}
 }
 
 
-
+/*   Media sreen with min-width 1200px   */
 @media (min-width: 1200px) {
     .top-menu-items a {letter-spacing: 1.5px;}
 }
@@ -238,7 +238,6 @@ ul, ol {margin-bottom: 0px !important;}
 
 
 /*   Media sreen with max-width 768px   */
-
 @media (max-width: 767px) {
     #shadow-wrap {
       position: fixed;
