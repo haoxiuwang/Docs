@@ -5,6 +5,8 @@ html,body,div,span,h1,h2,h3,h4,h5,h6,p,a {font-family: 'Open Sans', sans-serif; 
 h1,h2,h3,h4,h5,h6 {font-weight: 600;}
 a, a:focus, a:hover {text-decoration: none !important;}
 ul, ol {margin-bottom: 0px !important;}
+html,body {height: 100% !important;}
+.wrapper {position: relative; min-height: 100%;}
 
 #header-container {
   background-color: #41CC44;
@@ -144,6 +146,9 @@ ul, ol {margin-bottom: 0px !important;}
 }
 
 #footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   background-color: #F2F2F2;
   margin-top: 25px;
   padding: 60px 0 40px;
@@ -366,4 +371,5 @@ ul, ol {margin-bottom: 0px !important;}
     #hide-nav-btn {display: none;}
     #open-btn {display: block;}
     #close-btn {display: none;}
+    #footer {padding: 15px 0 5px;}
 }
